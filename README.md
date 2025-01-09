@@ -23,7 +23,7 @@ Using the [recommended_topics.html](https://github.com/yigitdemirkan/DSA210-Fall
 # 4. Findings
 The statistical test showed that there was a significant drop in interactions during exam periods. This means that, on average, I interact less with Instagram during my exam periods. This finding might reflect that my focus shifts more towards studying and other exam-related activities, leading to reduced social media activity. 
 
-On the other hand, according to the prediciton of ML model, the top 5 topics which are most likely to attarct my attention are:
+On the other hand, according to the prediciton of ML model, the top 5 topics which are most likely to attract my attention are:
 1) Types of Sports
 2) Beauty Product Types
 3) Video Games by Game Mechanics
