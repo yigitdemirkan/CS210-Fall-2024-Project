@@ -28,5 +28,5 @@ Besides exams; the quizzes, projects or some other assignemtns related to school
 ## Future Work:
 For managing time effectively, I can monitor my usage based on this study and I can plan my days or weeks in exam times accordingly. 
 
-# Conclusion
+# 6. Conclusion
 The hypothesis that Instagram interactions drop during exam periods has been validated by the analysis. The significant p-value (indicating a drop in interactions) suggests that I engage less on Instagram during times of high academic pressure, which can be valuable for content recommendation algorithms and understanding social media patterns.
