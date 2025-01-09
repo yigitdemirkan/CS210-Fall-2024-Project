@@ -2,9 +2,9 @@
 The motivation behind this project was to understand if and how my Instagram interactions are influenced by exam periods. Specifically, I wanted to test the hypothesis that interactions on Instagram decrease during times of academic exams. Additionally, with the recommended topics data which provided by Instagram, I tried to monitor my future activity on Instagram by using a ML model to predict the topics I will be interested in.
 
 # 2. Data Source
-The data used in this project was requested from Instagram and all kinds of activites are organized in **extracted_timestamps.csv**. The data for the exam dates are extracted by hand into a txt file (**sınav_tarihleri.txt**)
+The data used in this project was requested from Instagram and all kinds of activites are organized in [extracted_timestamps.csv](https://github.com/yigitdemirkan/DSA210-Fall-2024-Project/blob/main/extracted_timestamps.csv). The data for the exam dates are extracted by hand into a txt file ([sınav_tarihleri.txt](https://github.com/yigitdemirkan/DSA210-Fall-2024-Project/blob/main/s%C4%B1nav_tarihleri.txt))
 
-# 3. Data Analysis
+# 3. Data Analysis (in [main.ipynb](https://github.com/yigitdemirkan/DSA210-Fall-2024-Project/blob/main/main.ipynb))
 ## Data Extraction & Preprocessing:
 Timestamps from the activity data were extracted, and only valid (non-null) timestamps were kept.
 Both Instagram interaction data and exam dates were converted into a suitable date format using Python's pandas library.
