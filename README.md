@@ -16,7 +16,7 @@ A Mann-Whitney U test was performed to check for a significant difference in Ins
 The null hypothesis was that there is no significant difference in interactions between exam and non-exam periods.
 The alternative hypothesis was that interactions drop during exam periods.
 ## Visualization:
-A histogram and boxplot were generated to visualize the distribution of Instagram interactions during exam and non-exam periods.
+A histogram and boxplot were generated to visualize the distribution of Instagram interactions, exam periods and these two together.
 ## Future Predictions for Interested Topics:
 Using the [recommended_topics.html](https://github.com/yigitdemirkan/DSA210-Fall-2024-Project/blob/main/raw_data/recommended_topics.html) data, the 5 topics which are most likely to catch my interest is listed. I used the TF-IDF vectorization method and Cosine similarity in order to build the relevant ML model. 
 
