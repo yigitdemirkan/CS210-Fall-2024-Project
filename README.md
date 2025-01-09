@@ -17,9 +17,18 @@ The null hypothesis was that there is no significant difference in interactions 
 The alternative hypothesis was that interactions drop during exam periods.
 ## Visualization:
 A histogram and boxplot were generated to visualize the distribution of Instagram interactions during exam and non-exam periods.
+## Future Predictions for Interested Topics:
+Using the [recommended_topics.html](https://github.com/yigitdemirkan/DSA210-Fall-2024-Project/blob/main/raw_data/recommended_topics.html) data, the 5 topics which are most likely to catch my interest is listed. I used the TF-IDF vectorization method and Cosine similarity in order to build the relevant ML model. 
 
 # 4. Findings
-The statistical test showed that there was a significant drop in interactions during exam periods. This means that, on average, I interact less with Instagram during my exam periods. This finding might reflect that my focus shifts more towards studying and other exam-related activities, leading to reduced social media activity.
+The statistical test showed that there was a significant drop in interactions during exam periods. This means that, on average, I interact less with Instagram during my exam periods. This finding might reflect that my focus shifts more towards studying and other exam-related activities, leading to reduced social media activity. 
+
+On the other hand, according to the prediciton of ML model, the top 5 topics which are most likely to attarct my attention are:
+1) Types of Sports
+2) Beauty Product Types
+3) Video Games by Game Mechanics
+4) Travel by Region
+5) Video Games
 
 # 5. Limitations and Future Work
 ## Limitations:
