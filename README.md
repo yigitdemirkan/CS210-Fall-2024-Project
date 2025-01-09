@@ -23,7 +23,7 @@ The statistical test showed that there was a significant drop in interactions du
 
 # 5. Limitations and Future Work
 ## Limitations:
-Besides exams; the quizzes, projects or some other assignemtns related to school can also result in a decrease in Instagram usage but those factors are excluded in this study.
+Besides exams; the quizzes, projects or some other assignments related to school can also result in a decrease in Instagram usage but those factors are excluded in this study.
 
 ## Future Work:
 For managing time effectively, I can monitor my usage based on this study and I can plan my days or weeks in exam times accordingly. 
