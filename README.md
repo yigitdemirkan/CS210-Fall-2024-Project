@@ -1,11 +1,32 @@
-# Analyzing Behavior Patterns During Exam Periods Through Instagram Usage Data
-In this project, I aim to explore the impact of exam periods on my personal behavior focusing on how my Instagram usage patterns change. By using the data available on Instagram and analyzing it, this study will offer insights into how external events like exams influence daily habits. 
-## Main Question to be Examined:
-- Is there a significant change in number of interactions like comments, likes, poll answers, etc. when it is an exam period?
-## Method:
-- I will organise the raw data using Python and extract the necessarry statistics and visualizations using relevant libraries. Sepearting the data as exam and non-exam periods, I will be able to make comparisions.
-## Dataset:
-- I will use the dataset which Instagram provides. It will be useful since it contains all kind of information like the ads clicked, videos watched, posts liked, etc. about my usage.
-## Expected Results:
-- I expect a significant decrease in number of interactions during exam periods since there is limited time to use Instagram. 
+## 1. Motivation
+The motivation behind this project was to understand if and how my Instagram interactions are influenced by exam periods. Specifically, I wanted to test the hypothesis that interactions on Instagram decrease during times of academic exams. Additionally, with the recommended topics data which provided by Instagram, I tried to monitor my future activity on Instagram by using a ML model to predict the topics I will be interested in.
 
+## 2. Data Source
+The data used in this project was requested from Instagram and all kinds of activites are organized in extracted_timestamps.csv. The data for the exam dates are extracted by hand into a txt file (sınav_tarihleri.txt)
+
+## 3. Data Analysis
+# Data Extraction & Preprocessing:
+Timestamps from the activity data were extracted, and only valid (non-null) timestamps were kept.
+Both Instagram interaction data and exam dates were converted into a suitable date format using Python's pandas library.
+# Group Data:
+The data was grouped into two sets: exam periods and non-exam periods based on the date values.
+# Statistical Testing:
+A Mann-Whitney U test was performed to check for a significant difference in Instagram activity between the exam period and non-exam period.
+# Hypothesis Test:
+The null hypothesis was that there is no significant difference in interactions between exam and non-exam periods.
+The alternative hypothesis was that interactions drop during exam periods.
+# Visualization:
+A histogram and boxplot were generated to visualize the distribution of Instagram interactions during exam and non-exam periods.
+
+## 4. Findings
+The statistical test showed that there was a significant drop in interactions during exam periods. This means that, on average, I interact less with Instagram during my exam periods. This finding might reflect that my focus shifts more towards studying and other exam-related activities, leading to reduced social media activity.
+
+## 5. Limitations and Future Work
+# Limitations:
+Besides exams; the quizzes, projects or some other assignemtns related to school can also result in a decrease in Instagram usage but those factors are excluded in this study.
+
+# Future Work:
+For managing time effectively, I can monitor my usage based on this study and I can plan my days or weeks in exam times accordingly. 
+
+## Conclusion
+The hypothesis that Instagram interactions drop during exam periods has been validated by the analysis. The significant p-value (indicating a drop in interactions) suggests that I engage less on Instagram during times of high academic pressure, which can be valuable for content recommendation algorithms and understanding social media patterns.
